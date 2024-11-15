@@ -1,0 +1,67 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-weight: bold;
+}
+
+.add-task-btn {
+  background-color: #6f42c1;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.task-list-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.task-card {
+  border: none;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 10px 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.task-card .card-body {
+  padding: 10px;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.btn-outline-primary,
+.btn-outline-danger {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn-outline-primary i,
+.btn-outline-danger i {
+  font-size: 1rem; /* Adjust icon size */
+}
+
+.btn-outline-primary:hover,
+.btn-outline-danger:hover {
+  opacity: 0.8; /* Add hover effect */
+}
+
+.task-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
